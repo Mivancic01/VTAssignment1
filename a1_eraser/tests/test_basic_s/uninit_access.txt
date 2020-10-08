@@ -1,0 +1,10 @@
+Thread 0: Uninitialised read from \(var1\) in function uninit_access\(int\) at basic.cpp:39
+Thread 0: Unprotected read from \(var1\) in function uninit_access\(int\) at basic.cpp:39
+Thread 0: Unprotected write to \(var1\) in function uninit_access\(int\) at basic.cpp:40
+Thread 0: Unprotected read from \(var1\) in function uninit_access\(int\) at basic.cpp:41
+Thread 0: Unprotected write to \(var2\) in function uninit_access\(int\) at basic.cpp:42
+Thread 0: Unprotected read from \(var2\) in function uninit_access\(int\) at basic.cpp:43
+Thread 0: Unprotected write to \(var3\) in function uninit_access\(int\) at basic.cpp:44
+Thread 0: Unprotected read from \(var3\) in function uninit_access\(int\) at basic.cpp:45
+Thread 0: Unprotected write to \(var3\) in function uninit_access\(int\) at basic.cpp:46
+Thread 0: Unprotected read from \(var3\) in function uninit_access\(int\) at basic.cpp:47

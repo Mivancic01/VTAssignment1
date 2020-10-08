@@ -1,0 +1,6 @@
+Thread 0: Unprotected write to \(secret\) in function unprot_access\(int\) at basic.cpp:57
+Thread 1: Unprotected read from \(secret\) in function S::plus\(\) at basic.cpp:62
+Thread 1: Unprotected write to \(secret\) in function S::plus\(\) at basic.cpp:62
+Thread 2: Unprotected read from \(secret\) in function S::minus\(\) at basic.cpp:66
+Thread 2: Unprotected write to \(secret\) in function S::minus\(\) at basic.cpp:66
+Thread 0: Unprotected read from \(secret\) in function unprot_access\(int\) at basic.cpp:77
