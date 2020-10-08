@@ -4,7 +4,7 @@
 * __Purpose__: Understand the Eraser algorithm.
 * __Task__: Implement the Eraser algorithm in C++.
 * __Question Hour__: Oct 16, 2020 11am on [Discord](https://discord.gg/aeMjStg).
-* __Deadline__: Oct 22 (23:59 Graz timezone), 2020.
+* __Deadline__: ~~Oct 22~~ Oct 29 (23:59 Graz timezone), 2020.
 (Commits after the deadline will be ignored)
 
 ##  Deliverable
