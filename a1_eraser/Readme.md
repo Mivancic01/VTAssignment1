@@ -238,7 +238,11 @@ The functions `report_load` and `report_store` provide you with the accessed add
 You have to convert this to report read and write access for each byte individually.
 Note the `objname` parameter in the methods of `Eraser`, for this task it should always be an empty string. This tells the logger to report memory addresses instead of object names.
 
-To test the code instrumentation and of the byte precise tracking you have to write your own test case. This test case should not produce any errors when only the address is reported, but it must produce an error if your byte precise implementation is used. It does not matter which of the errors you produce. Implement this test case in the file `inst/tests/my_instr_test.cpp`.
+To test the code instrumentation and the byte precise tracking you have to write your own test case.
+Implement this test case in the file `inst/tests/my_instr_test.cpp`. 
+It does not matter which of the errors you produce.
+*Bonus challenge*: Maybe, you can come up with an example that show cases the byte precise tracking. This might be by detecting a problem that could not be detected using the `EraserObject` implementation, or a program that cannot be written using `EraserObject`.
+You will receive the full points for this subtask for any test case, even if it does not conform to the restriction in the bonus challenge.
 
 Building the test cases and instrumenting them is implemented using cmake.
 If you build the project as described above you should find an `inst_test.elf` file for each of the tests in `build/inst`. These files are instrumented with the code in `cemila.cpp`. You can execute them and the eraser warnings are printed to `stderr`.
